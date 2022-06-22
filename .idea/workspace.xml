@@ -1,8 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="ca178716-a8e8-4985-8f45-87739b14957b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/AMOS2022.ctbl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/amos-am.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/amos-am.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/amos_illustration.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/challenge_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/miccai2022-logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sources/mri.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sources/amos_data (1).gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sources/amos_data.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sources/amos_data_debug.gif" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +49,15 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/sources" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/sources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/sources" />
+    </key>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -34,10 +71,32 @@
       <updated>1647708687423</updated>
       <workItem from="1647708688919" duration="37000" />
       <workItem from="1647708877136" duration="577000" />
+      <workItem from="1648073935503" duration="3000" />
+      <workItem from="1648781535172" duration="197000" />
+      <workItem from="1648781767397" duration="217000" />
+      <workItem from="1650422698218" duration="4000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="788" y="447" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1648781689321">
+      <screen x="0" y="25" width="2560" height="1334" />
+    </state>
+    <state x="788" y="447" key="#com.intellij.fileTypes.FileTypeChooser/0.25.2560.1334/-1440.-538.1440.2535@0.25.2560.1334" timestamp="1648781689321" />
   </component>
 </project>
