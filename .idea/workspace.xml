@@ -20,17 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ca178716-a8e8-4985-8f45-87739b14957b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/sources/AMOS2022.ctbl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sources/amos-am.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sources/amos-am.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sources/amos_illustration.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sources/challenge_logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sources/miccai2022-logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sources/mri.gif" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/amos_data (1).gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/amos_data.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/amos_data_debug.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/demo.gif" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/demo.gif" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,25 +32,31 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="26c2jKeDozgWIqUKC1juG8iG8sC" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/sources" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "WebServerToolWindowFactoryState": "true",
+    "last_opened_file_path": "/Users/yuanfeng/Documents/AMOS2022/assets/img"
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets/img" />
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/sources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/sources" />
     </key>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -75,11 +73,12 @@
       <workItem from="1648781535172" duration="197000" />
       <workItem from="1648781767397" duration="217000" />
       <workItem from="1650422698218" duration="4000" />
+      <workItem from="1655868945912" duration="1110000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -91,7 +90,6 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="788" y="447" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1648781689321">
