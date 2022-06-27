@@ -4,7 +4,7 @@ This instruction provides the guidance of how to pack developed algorithms to a 
 ### Submission guidance
 AMOS22 is a two-phase challenge. In the second stage, the participants will be asked to upload the inference portion of your algorithm in the form of a docker container. The submission takes place by uploading a saved docker image (single file) containing your inference code, and related short paper (please ues miccai paper template) to our email: miccai.amos22@gmail.com.
 The structure of the expected submission of task1 is shown:
-- TEAMNAME-task1.tar.gz (docker image)
+- TEAMNAME.tar.gz (docker image)
 - TEAMNAME-task1.pdf (short paper)
 
 This image will be loaded on the evaluation system and executed on private servers to run inference on the test images. Naturally, these docker images will NOT have internet access, so please ensure everything you need is included in the image you upload.  Containers will be run on server with a single NVIDIA 3090 card and 4 CPUs with 30GB of CPU memory. Make sure your docker works well with this hardware.
