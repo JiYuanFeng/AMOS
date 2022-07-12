@@ -7,7 +7,7 @@ The structure of the expected submission of task1 is shown:
 - TEAMNAME.tar.gz (docker image)
 - TEAMNAME-task1.pdf (short paper)
 
-This image will be loaded on the evaluation system and executed on private servers to run inference on the test images. Naturally, these docker images will NOT have internet access, so please ensure everything you need is included in the image you upload.  Containers will be run on server with a single NVIDIA 3090 card and 4 CPUs with 30GB of CPU memory. Make sure your docker works well with this hardware.
+This image will be loaded on the evaluation system and executed on private servers to run inference on the test images. Naturally, these docker images will NOT have internet access, so please ensure everything you need is included in the image you upload.  Containers will be run on server with a single NVIDIA 3090 card and 4 CPUs with 128GB of CPU memory. Make sure your docker works well with this hardware.
 
 On our servers, the containers will be mounted such that two specific folders are available,  ``/input/`` and ``/output/``. The ``/input/`` contains the test data, where merely a bunch of *.nii.gz test images files. Your docker is expected to produce equivalently named segmentation files in the ``/output/``. The structure of the expected input and output folder is shown:
 
