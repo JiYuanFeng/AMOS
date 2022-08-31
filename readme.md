@@ -1,5 +1,5 @@
 # AMOS2022
-Code for the NeurIPS 2022 paper: "[AMOS: A Large-Scale Abdominal Multi-Organ Benchmark for Versatile Medical Image Segmentation](https://arxiv.org/abs/2206.08023)"
+Code for the our paper: "[AMOS: A Large-Scale Abdominal Multi-Organ Benchmark for Versatile Medical Image Segmentation](https://arxiv.org/abs/2206.08023)"
 
 ## Installation
 
