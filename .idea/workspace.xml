@@ -19,10 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ca178716-a8e8-4985-8f45-87739b14957b" name="Default Changelist" comment="">
+    <list default="true" id="ca178716-a8e8-4985-8f45-87739b14957b" name="Default Changelist" comment="Default Changelist">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/demo.gif" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/demo.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/apple-touch-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +30,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="page" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -40,12 +45,12 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "WebServerToolWindowFactoryState": "true",
-    "last_opened_file_path": "/Users/yuanfeng/Documents/AMOS2022/assets/img"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/yuanfeng/Documents/AMOS2022/assets/img&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/assets/img" />
@@ -74,6 +79,8 @@
       <workItem from="1648781767397" duration="217000" />
       <workItem from="1650422698218" duration="4000" />
       <workItem from="1655868945912" duration="1110000" />
+      <workItem from="1660639453487" duration="17000" />
+      <workItem from="1660983765855" duration="14000" />
     </task>
     <servers />
   </component>
@@ -90,11 +97,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="788" y="447" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1648781689321">
-      <screen x="0" y="25" width="2560" height="1334" />
-    </state>
-    <state x="788" y="447" key="#com.intellij.fileTypes.FileTypeChooser/0.25.2560.1334/-1440.-538.1440.2535@0.25.2560.1334" timestamp="1648781689321" />
   </component>
 </project>

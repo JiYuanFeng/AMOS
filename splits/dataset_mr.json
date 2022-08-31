@@ -1,0 +1,298 @@
+{
+    "name": "AMOS",
+    "description": "MICCAI2022 Multi-Modality Abdominal Multi-Organ Segmentation CT Only",
+    "author": "Yuanfeng Ji",
+    "reference": "SRIDB x CUHKSZ x HKU x SYSU x LGCHSZ x LGPHSZ",
+    "licence": "CC-BY-SA 4.0",
+    "release": "1.0 01/05/2022",
+    "tensorImageSize": "3D",
+    "modality": {
+        "0": "MRI"
+    },
+    "labels": {
+        "0": "background",
+        "1": "spleen",
+        "10": "pancreas",
+        "11": "right adrenal gland",
+        "12": "left adrenal gland",
+        "13": "duodenum",
+        "14": "bladder",
+        "15": "prostate/uterus",
+        "2": "right kidney",
+        "3": "left kidney",
+        "4": "gall bladder",
+        "5": "esophagus",
+        "6": "liver",
+        "7": "stomach",
+        "8": "arota",
+        "9": "postcava"
+    },
+
+    "numTraining": 60,
+    "numTest": 20,
+    "training": [
+        {
+            "image": "../DATASET/AMOS22_raw/AMOS22_raw_data/Task02_AMOS_MR/imagesTr/amos_0507.nii.gz",
+            "label": "../DATASET/AMOS22_raw/AMOS22_raw_data/Task02_AMOS_MR/labelsTr/amos_0507.nii.gz"
+        },
+        {
+            "image": "../DATASET/AMOS22_raw/AMOS22_raw_data/Task02_AMOS_MR/imagesTr/amos_0508.nii.gz",
+            "label": "../DATASET/AMOS22_raw/AMOS22_raw_data/Task02_AMOS_MR/labelsTr/amos_0508.nii.gz"
+        },
+        {
+            "image": "../DATASET/AMOS22_raw/AMOS22_raw_data/Task02_AMOS_MR/imagesTr/amos_0510.nii.gz",
+            "label": "../DATASET/AMOS22_raw/AMOS22_raw_data/Task02_AMOS_MR/labelsTr/amos_0510.nii.gz"
+        },
+        {
+            "image": "../DATASET/AMOS22_raw/AMOS22_raw_data/Task02_AMOS_MR/imagesTr/amos_0514.nii.gz",
+            "label": "../DATASET/AMOS22_raw/AMOS22_raw_data/Task02_AMOS_MR/labelsTr/amos_0514.nii.gz"
+        },
+        {
+            "image": "../DATASET/AMOS22_raw/AMOS22_raw_data/Task02_AMOS_MR/imagesTr/amos_0517.nii.gz",
+            "label": "../DATASET/AMOS22_raw/AMOS22_raw_data/Task02_AMOS_MR/labelsTr/amos_0517.nii.gz"
+        },
+        {
+            "image": "../DATASET/AMOS22_raw/AMOS22_raw_data/Task02_AMOS_MR/imagesTr/amos_0518.nii.gz",
+            "label": "../DATASET/AMOS22_raw/AMOS22_raw_data/Task02_AMOS_MR/labelsTr/amos_0518.nii.gz"
+        },
+        {
+            "image": "../DATASET/AMOS22_raw/AMOS22_raw_data/Task02_AMOS_MR/imagesTr/amos_0522.nii.gz",
+            "label": "../DATASET/AMOS22_raw/AMOS22_raw_data/Task02_AMOS_MR/labelsTr/amos_0522.nii.gz"
+        },
+        {
+            "image": "../DATASET/AMOS22_raw/AMOS22_raw_data/Task02_AMOS_MR/imagesTr/amos_0530.nii.gz",
+            "label": "../DATASET/AMOS22_raw/AMOS22_raw_data/Task02_AMOS_MR/labelsTr/amos_0530.nii.gz"
+        },
+        {
+            "image": "../DATASET/AMOS22_raw/AMOS22_raw_data/Task02_AMOS_MR/imagesTr/amos_0532.nii.gz",
+            "label": "../DATASET/AMOS22_raw/AMOS22_raw_data/Task02_AMOS_MR/labelsTr/amos_0532.nii.gz"
+        },
+        {
+            "image": "../DATASET/AMOS22_raw/AMOS22_raw_data/Task02_AMOS_MR/imagesTr/amos_0538.nii.gz",
+            "label": "../DATASET/AMOS22_raw/AMOS22_raw_data/Task02_AMOS_MR/labelsTr/amos_0538.nii.gz"
+        },
+        {
+            "image": "../DATASET/AMOS22_raw/AMOS22_raw_data/Task02_AMOS_MR/imagesTr/amos_0540.nii.gz",
+            "label": "../DATASET/AMOS22_raw/AMOS22_raw_data/Task02_AMOS_MR/labelsTr/amos_0540.nii.gz"
+        },
+        {
+            "image": "../DATASET/AMOS22_raw/AMOS22_raw_data/Task02_AMOS_MR/imagesTr/amos_0541.nii.gz",
+            "label": "../DATASET/AMOS22_raw/AMOS22_raw_data/Task02_AMOS_MR/labelsTr/amos_0541.nii.gz"
+        },
+        {
+            "image": "../DATASET/AMOS22_raw/AMOS22_raw_data/Task02_AMOS_MR/imagesTr/amos_0544.nii.gz",
+            "label": "../DATASET/AMOS22_raw/AMOS22_raw_data/Task02_AMOS_MR/labelsTr/amos_0544.nii.gz"
+        },
+        {
+            "image": "../DATASET/AMOS22_raw/AMOS22_raw_data/Task02_AMOS_MR/imagesTr/amos_0545.nii.gz",
+            "label": "../DATASET/AMOS22_raw/AMOS22_raw_data/Task02_AMOS_MR/labelsTr/amos_0545.nii.gz"
+        },
+        {
+            "image": "../DATASET/AMOS22_raw/AMOS22_raw_data/Task02_AMOS_MR/imagesTr/amos_0546.nii.gz",
+            "label": "../DATASET/AMOS22_raw/AMOS22_raw_data/Task02_AMOS_MR/labelsTr/amos_0546.nii.gz"
+        },
+        {
+            "image": "../DATASET/AMOS22_raw/AMOS22_raw_data/Task02_AMOS_MR/imagesTr/amos_0547.nii.gz",
+            "label": "../DATASET/AMOS22_raw/AMOS22_raw_data/Task02_AMOS_MR/labelsTr/amos_0547.nii.gz"
+        },
+        {
+            "image": "../DATASET/AMOS22_raw/AMOS22_raw_data/Task02_AMOS_MR/imagesTr/amos_0548.nii.gz",
+            "label": "../DATASET/AMOS22_raw/AMOS22_raw_data/Task02_AMOS_MR/labelsTr/amos_0548.nii.gz"
+        },
+        {
+            "image": "../DATASET/AMOS22_raw/AMOS22_raw_data/Task02_AMOS_MR/imagesTr/amos_0549.nii.gz",
+            "label": "../DATASET/AMOS22_raw/AMOS22_raw_data/Task02_AMOS_MR/labelsTr/amos_0549.nii.gz"
+        },
+        {
+            "image": "../DATASET/AMOS22_raw/AMOS22_raw_data/Task02_AMOS_MR/imagesTr/amos_0550.nii.gz",
+            "label": "../DATASET/AMOS22_raw/AMOS22_raw_data/Task02_AMOS_MR/labelsTr/amos_0550.nii.gz"
+        },
+        {
+            "image": "../DATASET/AMOS22_raw/AMOS22_raw_data/Task02_AMOS_MR/imagesTr/amos_0551.nii.gz",
+            "label": "../DATASET/AMOS22_raw/AMOS22_raw_data/Task02_AMOS_MR/labelsTr/amos_0551.nii.gz"
+        },
+        {
+            "image": "../DATASET/AMOS22_raw/AMOS22_raw_data/Task02_AMOS_MR/imagesTr/amos_0552.nii.gz",
+            "label": "../DATASET/AMOS22_raw/AMOS22_raw_data/Task02_AMOS_MR/labelsTr/amos_0552.nii.gz"
+        },
+        {
+            "image": "../DATASET/AMOS22_raw/AMOS22_raw_data/Task02_AMOS_MR/imagesTr/amos_0553.nii.gz",
+            "label": "../DATASET/AMOS22_raw/AMOS22_raw_data/Task02_AMOS_MR/labelsTr/amos_0553.nii.gz"
+        },
+        {
+            "image": "../DATASET/AMOS22_raw/AMOS22_raw_data/Task02_AMOS_MR/imagesTr/amos_0554.nii.gz",
+            "label": "../DATASET/AMOS22_raw/AMOS22_raw_data/Task02_AMOS_MR/labelsTr/amos_0554.nii.gz"
+        },
+        {
+            "image": "../DATASET/AMOS22_raw/AMOS22_raw_data/Task02_AMOS_MR/imagesTr/amos_0555.nii.gz",
+            "label": "../DATASET/AMOS22_raw/AMOS22_raw_data/Task02_AMOS_MR/labelsTr/amos_0555.nii.gz"
+        },
+        {
+            "image": "../DATASET/AMOS22_raw/AMOS22_raw_data/Task02_AMOS_MR/imagesTr/amos_0556.nii.gz",
+            "label": "../DATASET/AMOS22_raw/AMOS22_raw_data/Task02_AMOS_MR/labelsTr/amos_0556.nii.gz"
+        },
+        {
+            "image": "../DATASET/AMOS22_raw/AMOS22_raw_data/Task02_AMOS_MR/imagesTr/amos_0557.nii.gz",
+            "label": "../DATASET/AMOS22_raw/AMOS22_raw_data/Task02_AMOS_MR/labelsTr/amos_0557.nii.gz"
+        },
+        {
+            "image": "../DATASET/AMOS22_raw/AMOS22_raw_data/Task02_AMOS_MR/imagesTr/amos_0558.nii.gz",
+            "label": "../DATASET/AMOS22_raw/AMOS22_raw_data/Task02_AMOS_MR/labelsTr/amos_0558.nii.gz"
+        },
+        {
+            "image": "../DATASET/AMOS22_raw/AMOS22_raw_data/Task02_AMOS_MR/imagesTr/amos_0559.nii.gz",
+            "label": "../DATASET/AMOS22_raw/AMOS22_raw_data/Task02_AMOS_MR/labelsTr/amos_0559.nii.gz"
+        },
+        {
+            "image": "../DATASET/AMOS22_raw/AMOS22_raw_data/Task02_AMOS_MR/imagesTr/amos_0561.nii.gz",
+            "label": "../DATASET/AMOS22_raw/AMOS22_raw_data/Task02_AMOS_MR/labelsTr/amos_0561.nii.gz"
+        },
+        {
+            "image": "../DATASET/AMOS22_raw/AMOS22_raw_data/Task02_AMOS_MR/imagesTr/amos_0562.nii.gz",
+            "label": "../DATASET/AMOS22_raw/AMOS22_raw_data/Task02_AMOS_MR/labelsTr/amos_0562.nii.gz"
+        },
+        {
+            "image": "../DATASET/AMOS22_raw/AMOS22_raw_data/Task02_AMOS_MR/imagesTr/amos_0563.nii.gz",
+            "label": "../DATASET/AMOS22_raw/AMOS22_raw_data/Task02_AMOS_MR/labelsTr/amos_0563.nii.gz"
+        },
+        {
+            "image": "../DATASET/AMOS22_raw/AMOS22_raw_data/Task02_AMOS_MR/imagesTr/amos_0568.nii.gz",
+            "label": "../DATASET/AMOS22_raw/AMOS22_raw_data/Task02_AMOS_MR/labelsTr/amos_0568.nii.gz"
+        },
+        {
+            "image": "../DATASET/AMOS22_raw/AMOS22_raw_data/Task02_AMOS_MR/imagesTr/amos_0570.nii.gz",
+            "label": "../DATASET/AMOS22_raw/AMOS22_raw_data/Task02_AMOS_MR/labelsTr/amos_0570.nii.gz"
+        },
+        {
+            "image": "../DATASET/AMOS22_raw/AMOS22_raw_data/Task02_AMOS_MR/imagesTr/amos_0571.nii.gz",
+            "label": "../DATASET/AMOS22_raw/AMOS22_raw_data/Task02_AMOS_MR/labelsTr/amos_0571.nii.gz"
+        },
+        {
+            "image": "../DATASET/AMOS22_raw/AMOS22_raw_data/Task02_AMOS_MR/imagesTr/amos_0572.nii.gz",
+            "label": "../DATASET/AMOS22_raw/AMOS22_raw_data/Task02_AMOS_MR/labelsTr/amos_0572.nii.gz"
+        },
+        {
+            "image": "../DATASET/AMOS22_raw/AMOS22_raw_data/Task02_AMOS_MR/imagesTr/amos_0573.nii.gz",
+            "label": "../DATASET/AMOS22_raw/AMOS22_raw_data/Task02_AMOS_MR/labelsTr/amos_0573.nii.gz"
+        },
+        {
+            "image": "../DATASET/AMOS22_raw/AMOS22_raw_data/Task02_AMOS_MR/imagesTr/amos_0575.nii.gz",
+            "label": "../DATASET/AMOS22_raw/AMOS22_raw_data/Task02_AMOS_MR/labelsTr/amos_0575.nii.gz"
+        },
+        {
+            "image": "../DATASET/AMOS22_raw/AMOS22_raw_data/Task02_AMOS_MR/imagesTr/amos_0576.nii.gz",
+            "label": "../DATASET/AMOS22_raw/AMOS22_raw_data/Task02_AMOS_MR/labelsTr/amos_0576.nii.gz"
+        },
+        {
+            "image": "../DATASET/AMOS22_raw/AMOS22_raw_data/Task02_AMOS_MR/imagesTr/amos_0578.nii.gz",
+            "label": "../DATASET/AMOS22_raw/AMOS22_raw_data/Task02_AMOS_MR/labelsTr/amos_0578.nii.gz"
+        },
+        {
+            "image": "../DATASET/AMOS22_raw/AMOS22_raw_data/Task02_AMOS_MR/imagesTr/amos_0580.nii.gz",
+            "label": "../DATASET/AMOS22_raw/AMOS22_raw_data/Task02_AMOS_MR/labelsTr/amos_0580.nii.gz"
+        },
+        {
+            "image": "../DATASET/AMOS22_raw/AMOS22_raw_data/Task02_AMOS_MR/imagesTr/amos_0581.nii.gz",
+            "label": "../DATASET/AMOS22_raw/AMOS22_raw_data/Task02_AMOS_MR/labelsTr/amos_0581.nii.gz"
+        },
+        {
+            "image": "../DATASET/AMOS22_raw/AMOS22_raw_data/Task02_AMOS_MR/imagesTr/amos_0582.nii.gz",
+            "label": "../DATASET/AMOS22_raw/AMOS22_raw_data/Task02_AMOS_MR/labelsTr/amos_0582.nii.gz"
+        },
+        {
+            "image": "../DATASET/AMOS22_raw/AMOS22_raw_data/Task02_AMOS_MR/imagesTr/amos_0583.nii.gz",
+            "label": "../DATASET/AMOS22_raw/AMOS22_raw_data/Task02_AMOS_MR/labelsTr/amos_0583.nii.gz"
+        },
+        {
+            "image": "../DATASET/AMOS22_raw/AMOS22_raw_data/Task02_AMOS_MR/imagesTr/amos_0584.nii.gz",
+            "label": "../DATASET/AMOS22_raw/AMOS22_raw_data/Task02_AMOS_MR/labelsTr/amos_0584.nii.gz"
+        },
+        {
+            "image": "../DATASET/AMOS22_raw/AMOS22_raw_data/Task02_AMOS_MR/imagesTr/amos_0585.nii.gz",
+            "label": "../DATASET/AMOS22_raw/AMOS22_raw_data/Task02_AMOS_MR/labelsTr/amos_0585.nii.gz"
+        },
+        {
+            "image": "../DATASET/AMOS22_raw/AMOS22_raw_data/Task02_AMOS_MR/imagesTr/amos_0586.nii.gz",
+            "label": "../DATASET/AMOS22_raw/AMOS22_raw_data/Task02_AMOS_MR/labelsTr/amos_0586.nii.gz"
+        },
+        {
+            "image": "../DATASET/AMOS22_raw/AMOS22_raw_data/Task02_AMOS_MR/imagesTr/amos_0587.nii.gz",
+            "label": "../DATASET/AMOS22_raw/AMOS22_raw_data/Task02_AMOS_MR/labelsTr/amos_0587.nii.gz"
+        },
+        {
+            "image": "../DATASET/AMOS22_raw/AMOS22_raw_data/Task02_AMOS_MR/imagesTr/amos_0588.nii.gz",
+            "label": "../DATASET/AMOS22_raw/AMOS22_raw_data/Task02_AMOS_MR/labelsTr/amos_0588.nii.gz"
+        },
+        {
+            "image": "../DATASET/AMOS22_raw/AMOS22_raw_data/Task02_AMOS_MR/imagesTr/amos_0589.nii.gz",
+            "label": "../DATASET/AMOS22_raw/AMOS22_raw_data/Task02_AMOS_MR/labelsTr/amos_0589.nii.gz"
+        },
+        {
+            "image": "../DATASET/AMOS22_raw/AMOS22_raw_data/Task02_AMOS_MR/imagesTr/amos_0590.nii.gz",
+            "label": "../DATASET/AMOS22_raw/AMOS22_raw_data/Task02_AMOS_MR/labelsTr/amos_0590.nii.gz"
+        },
+        {
+            "image": "../DATASET/AMOS22_raw/AMOS22_raw_data/Task02_AMOS_MR/imagesTr/amos_0591.nii.gz",
+            "label": "../DATASET/AMOS22_raw/AMOS22_raw_data/Task02_AMOS_MR/labelsTr/amos_0591.nii.gz"
+        },
+        {
+            "image": "../DATASET/AMOS22_raw/AMOS22_raw_data/Task02_AMOS_MR/imagesTr/amos_0592.nii.gz",
+            "label": "../DATASET/AMOS22_raw/AMOS22_raw_data/Task02_AMOS_MR/labelsTr/amos_0592.nii.gz"
+        },
+        {
+            "image": "../DATASET/AMOS22_raw/AMOS22_raw_data/Task02_AMOS_MR/imagesTr/amos_0593.nii.gz",
+            "label": "../DATASET/AMOS22_raw/AMOS22_raw_data/Task02_AMOS_MR/labelsTr/amos_0593.nii.gz"
+        },
+        {
+            "image": "../DATASET/AMOS22_raw/AMOS22_raw_data/Task02_AMOS_MR/imagesTr/amos_0594.nii.gz",
+            "label": "../DATASET/AMOS22_raw/AMOS22_raw_data/Task02_AMOS_MR/labelsTr/amos_0594.nii.gz"
+        },
+        {
+            "image": "../DATASET/AMOS22_raw/AMOS22_raw_data/Task02_AMOS_MR/imagesTr/amos_0595.nii.gz",
+            "label": "../DATASET/AMOS22_raw/AMOS22_raw_data/Task02_AMOS_MR/labelsTr/amos_0595.nii.gz"
+        },
+        {
+            "image": "../DATASET/AMOS22_raw/AMOS22_raw_data/Task02_AMOS_MR/imagesTr/amos_0596.nii.gz",
+            "label": "../DATASET/AMOS22_raw/AMOS22_raw_data/Task02_AMOS_MR/labelsTr/amos_0596.nii.gz"
+        },
+        {
+            "image": "../DATASET/AMOS22_raw/AMOS22_raw_data/Task02_AMOS_MR/imagesTr/amos_0597.nii.gz",
+            "label": "../DATASET/AMOS22_raw/AMOS22_raw_data/Task02_AMOS_MR/labelsTr/amos_0597.nii.gz"
+        },
+        {
+            "image": "../DATASET/AMOS22_raw/AMOS22_raw_data/Task02_AMOS_MR/imagesTr/amos_0598.nii.gz",
+            "label": "../DATASET/AMOS22_raw/AMOS22_raw_data/Task02_AMOS_MR/labelsTr/amos_0598.nii.gz"
+        },
+        {
+            "image": "../DATASET/AMOS22_raw/AMOS22_raw_data/Task02_AMOS_MR/imagesTr/amos_0599.nii.gz",
+            "label": "../DATASET/AMOS22_raw/AMOS22_raw_data/Task02_AMOS_MR/labelsTr/amos_0599.nii.gz"
+        },
+        {
+            "image": "../DATASET/AMOS22_raw/AMOS22_raw_data/Task02_AMOS_MR/imagesTr/amos_0600.nii.gz",
+            "label": "../DATASET/AMOS22_raw/AMOS22_raw_data/Task02_AMOS_MR/labelsTr/amos_0600.nii.gz"
+        }
+    ],
+    
+    "test": [
+        "../DATASET/AMOS22_raw/AMOS22_raw_data/Task02_AMOS_MR/imagesTs/amos_0544.nii.gz",
+        "../DATASET/AMOS22_raw/AMOS22_raw_data/Task02_AMOS_MR/imagesTs/amos_0545.nii.gz",
+        "../DATASET/AMOS22_raw/AMOS22_raw_data/Task02_AMOS_MR/imagesTs/amos_0546.nii.gz",
+        "../DATASET/AMOS22_raw/AMOS22_raw_data/Task02_AMOS_MR/imagesTs/amos_0547.nii.gz",
+        "../DATASET/AMOS22_raw/AMOS22_raw_data/Task02_AMOS_MR/imagesTs/amos_0549.nii.gz",
+        "../DATASET/AMOS22_raw/AMOS22_raw_data/Task02_AMOS_MR/imagesTs/amos_0550.nii.gz",
+        "../DATASET/AMOS22_raw/AMOS22_raw_data/Task02_AMOS_MR/imagesTs/amos_0552.nii.gz",
+        "../DATASET/AMOS22_raw/AMOS22_raw_data/Task02_AMOS_MR/imagesTs/amos_0553.nii.gz",
+        "../DATASET/AMOS22_raw/AMOS22_raw_data/Task02_AMOS_MR/imagesTs/amos_0556.nii.gz",
+        "../DATASET/AMOS22_raw/AMOS22_raw_data/Task02_AMOS_MR/imagesTs/amos_0559.nii.gz",
+        "../DATASET/AMOS22_raw/AMOS22_raw_data/Task02_AMOS_MR/imagesTs/amos_0561.nii.gz",
+        "../DATASET/AMOS22_raw/AMOS22_raw_data/Task02_AMOS_MR/imagesTs/amos_0562.nii.gz",
+        "../DATASET/AMOS22_raw/AMOS22_raw_data/Task02_AMOS_MR/imagesTs/amos_0563.nii.gz",
+        "../DATASET/AMOS22_raw/AMOS22_raw_data/Task02_AMOS_MR/imagesTs/amos_0568.nii.gz",
+        "../DATASET/AMOS22_raw/AMOS22_raw_data/Task02_AMOS_MR/imagesTs/amos_0572.nii.gz",
+        "../DATASET/AMOS22_raw/AMOS22_raw_data/Task02_AMOS_MR/imagesTs/amos_0573.nii.gz",
+        "../DATASET/AMOS22_raw/AMOS22_raw_data/Task02_AMOS_MR/imagesTs/amos_0575.nii.gz",
+        "../DATASET/AMOS22_raw/AMOS22_raw_data/Task02_AMOS_MR/imagesTs/amos_0576.nii.gz",
+        "../DATASET/AMOS22_raw/AMOS22_raw_data/Task02_AMOS_MR/imagesTs/amos_0581.nii.gz",
+        "../DATASET/AMOS22_raw/AMOS22_raw_data/Task02_AMOS_MR/imagesTs/amos_0598.nii.gz"
+    ]
+}
