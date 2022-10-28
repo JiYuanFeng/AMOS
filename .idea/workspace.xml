@@ -20,21 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ca178716-a8e8-4985-8f45-87739b14957b" name="Default Changelist" comment="Default Changelist">
-      <change afterPath="$PROJECT_DIR$/assets/css/style2.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/challenge.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/submit.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/apple-touch-icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog-single.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog-single.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/github.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index-2.html" beforeDir="false" afterPath="$PROJECT_DIR$/index-2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio-details.html" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio-details.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio.html" beforeDir="false" afterPath="$PROJECT_DIR$/paper.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services.html" beforeDir="false" afterPath="$PROJECT_DIR$/leaderboard.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/team.html" beforeDir="false" afterPath="$PROJECT_DIR$/update.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,6 +91,8 @@
       <workItem from="1665199809216" duration="44000" />
       <workItem from="1665209313148" duration="320000" />
       <workItem from="1665370938039" duration="663000" />
+      <workItem from="1665456690459" duration="1204000" />
+      <workItem from="1666923901562" duration="510000" />
     </task>
     <servers />
   </component>
