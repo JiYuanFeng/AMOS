@@ -19,32 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ca178716-a8e8-4985-8f45-87739b14957b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/img/iconLoader.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/team/baohaotian.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/team/gechongjian.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/team/jiyuanfeng.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/team/lizhen.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/team/luoping.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/team/maweijie.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/team/xiangwang.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/team/yangjie.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/team/zhangruimao.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/explore.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/other/cocoexplorer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/other/cocoscripts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/other/cocostyles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/other/jquery.tagit.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/other/tag-it.min.js" afterDir="false" />
+    <list default="true" id="ca178716-a8e8-4985-8f45-87739b14957b" name="Default Changelist" comment="Default Changelist">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/team/team-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/team/team-2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/team/team-3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/team/team-4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/team/team-5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/team/team-6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
