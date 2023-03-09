@@ -2009,3 +2009,12 @@ section {
 #footer .credits a {
   color: #a2cce3;
 }
+
+/*--------------------------------------------------------------
+# Dataset Overview
+--------------------------------------------------------------*/
+img.animated-gif{
+  width: 1300px;
+  height: auto;  
+  margin: auto;
+}
